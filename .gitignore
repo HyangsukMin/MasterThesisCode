@@ -135,6 +135,7 @@ src/ticc/
 archive/
 datasets/
 bs_outputs/
+bs_outputs/ticc
 outputs/
 img/
 log/
