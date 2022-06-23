@@ -1,0 +1,74 @@
+INFO: 2022-06-20 17:59:56,521 - root -  - {'commit': 'implicit_ordering_3', 'exp': 3, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'skoda', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 100, 'batch_size': 32, 'maxIters': 2, 'beta': 200, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'None', 'n_filters': 8, 'n_latent': 20, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 4, 'sampling_factor': 16}
+INFO: 2022-06-20 17:59:56,754 - root -  - skoda: Data size: (107951, 60) (107951,)
+INFO: 2022-06-20 18:00:02,652 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 18:00:27,470 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12508,  1433, 26690, 21951, 11903, 11789, 13946,  7731]))
+INFO: 2022-06-20 18:00:27,987 - root -  - # EPOCH 2 | # Scoring: nmi 0.847 ami 0.847 ari 0.789 f1 0.783 acc 0.837
+INFO: 2022-06-20 18:00:27,989 - root -  - Changed total 0.679.
+INFO: 2022-06-20 18:00:29,381 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 18:00:52,962 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12507, 28280, 22147,   873, 13955, 11903, 10536,  7750]))
+INFO: 2022-06-20 18:00:53,443 - root -  - # EPOCH 4 | # Scoring: nmi 0.891 ami 0.891 ari 0.845 f1 0.824 acc 0.881
+INFO: 2022-06-20 18:00:53,445 - root -  - Changed total 0.268.
+INFO: 2022-06-20 18:00:54,731 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 18:01:18,056 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12504, 30953, 19125,   915, 13938, 10834, 11903,  7779]))
+INFO: 2022-06-20 18:01:18,527 - root -  - # EPOCH 6 | # Scoring: nmi 0.853 ami 0.853 ari 0.803 f1 0.816 acc 0.869
+INFO: 2022-06-20 18:01:18,529 - root -  - Changed total 0.214.
+INFO: 2022-06-20 18:01:19,809 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 18:01:43,304 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12504, 31282, 18212,   897, 13928, 11385,  7840, 11903]))
+INFO: 2022-06-20 18:01:43,776 - root -  - # EPOCH 8 | # Scoring: nmi 0.851 ami 0.850 ari 0.808 f1 0.812 acc 0.868
+INFO: 2022-06-20 18:01:43,778 - root -  - Changed total 0.014.
+INFO: 2022-06-20 18:01:44,932 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 18:02:08,357 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12503, 30465, 18230,   894, 13926, 12293,  7738, 11902]))
+INFO: 2022-06-20 18:02:08,832 - root -  - # EPOCH 10 | # Scoring: nmi 0.854 ami 0.854 ari 0.820 f1 0.808 acc 0.867
+INFO: 2022-06-20 18:02:08,834 - root -  - Changed total 0.327.
+INFO: 2022-06-20 18:02:10,075 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 18:02:33,683 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12503, 29124, 18265,   891,  7676, 13579, 11902, 14011]))
+INFO: 2022-06-20 18:02:34,165 - root -  - # EPOCH 12 | # Scoring: nmi 0.843 ami 0.843 ari 0.811 f1 0.801 acc 0.861
+INFO: 2022-06-20 18:02:34,167 - root -  - Changed total 0.375.
+INFO: 2022-06-20 18:02:35,404 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 18:02:59,173 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12495, 28229, 14389, 18357,   894,  7761, 11900, 13926]))
+INFO: 2022-06-20 18:02:59,637 - root -  - # EPOCH 14 | # Scoring: nmi 0.839 ami 0.839 ari 0.807 f1 0.798 acc 0.858
+INFO: 2022-06-20 18:02:59,640 - root -  - Changed total 0.011.
+INFO: 2022-06-20 18:03:00,892 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 18:03:24,483 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12489, 27488, 15266, 18316,   895,  7791, 11810, 13896]))
+INFO: 2022-06-20 18:03:24,947 - root -  - # EPOCH 16 | # Scoring: nmi 0.833 ami 0.833 ari 0.796 f1 0.794 acc 0.853
+INFO: 2022-06-20 18:03:24,950 - root -  - Changed total 0.010.
+INFO: 2022-06-20 18:03:24,950 - root -  - CONVERGED!!!
+INFO: 2022-06-20 18:03:25,106 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 18:04:30,815 - root -  - 
+CONVERGED!!! BREAKING EARLY!!!
+INFO: 2022-06-20 18:04:30,922 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12375, 29062, 14951, 16918,  1060,  7936, 11765, 13884]))
+INFO: 2022-06-20 18:04:31,415 - root -  - # EPOCH 16 | # Scoring: nmi 0.859 ami 0.859 ari 0.840 f1 0.803 acc 0.868
+INFO: 2022-06-20 18:04:31,418 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 18:04:31,425 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 18:04:32,094 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 18:04:46,439 - root -  - # FINAL SCORE @ EPOCH 16 | # Scoring: nmi 0.859 ami 0.859 ari 0.840 f1 0.803 acc 0.868
+INFO: 2022-06-20 18:04:46,927 - root -  - SAVE PREDICTION RESULTS.
+INFO: 2022-06-20 19:46:04,512 - root -  - {'commit': 'implicit_ordering_3', 'exp': 3, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'skoda', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 100, 'batch_size': 32, 'maxIters': 2, 'beta': 200, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 11, 'initializer': 'sequential', 'ablation': 'None', 'n_filters': 8, 'n_latent': 20, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 4, 'sampling_factor': 16}
+INFO: 2022-06-20 19:46:04,719 - root -  - skoda: Data size: (107951, 60) (107951,)
+INFO: 2022-06-20 19:46:15,044 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 19:46:37,124 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12487,  1205, 28346, 10559, 14796, 18818, 13893,  7847]))
+INFO: 2022-06-20 19:46:37,631 - root -  - # EPOCH 10 | # Scoring: nmi 0.893 ami 0.893 ari 0.870 f1 0.826 acc 0.887
+INFO: 2022-06-20 19:46:37,633 - root -  - Changed total 0.719.
+INFO: 2022-06-20 19:46:38,804 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 19:47:03,935 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([11893, 12494,   935, 28526, 20043, 12404, 13872,  7784]))
+INFO: 2022-06-20 19:47:04,403 - root -  - # EPOCH 12 | # Scoring: nmi 0.911 ami 0.911 ari 0.888 f1 0.823 acc 0.885
+INFO: 2022-06-20 19:47:04,405 - root -  - Changed total 0.681.
+INFO: 2022-06-20 19:47:05,634 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 19:47:28,013 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([  928, 12492, 28564, 19649, 12803, 11893, 13838,  7784]))
+INFO: 2022-06-20 19:47:28,526 - root -  - # EPOCH 14 | # Scoring: nmi 0.927 ami 0.927 ari 0.902 f1 0.830 acc 0.896
+INFO: 2022-06-20 19:47:28,528 - root -  - Changed total 0.277.
+INFO: 2022-06-20 19:47:29,780 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 19:47:52,051 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([  933, 12494, 28561, 13099, 19349, 11893, 13838,  7784]))
+INFO: 2022-06-20 19:47:52,523 - root -  - # EPOCH 16 | # Scoring: nmi 0.924 ami 0.924 ari 0.900 f1 0.829 acc 0.896
+INFO: 2022-06-20 19:47:52,525 - root -  - Changed total 0.003.
+INFO: 2022-06-20 19:47:52,526 - root -  - CONVERGED!!!
+INFO: 2022-06-20 19:47:52,671 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 19:48:53,217 - root -  - 
+CONVERGED!!! BREAKING EARLY!!!
+INFO: 2022-06-20 19:48:53,300 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([ 1204, 12276, 28498, 12494, 19880, 11892, 13790,  7917]))
+INFO: 2022-06-20 19:48:53,765 - root -  - # EPOCH 16 | # Scoring: nmi 0.922 ami 0.922 ari 0.897 f1 0.830 acc 0.893
+INFO: 2022-06-20 19:48:53,768 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 19:48:53,795 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 19:48:55,100 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 19:49:08,389 - root -  - # FINAL SCORE @ EPOCH 16 | # Scoring: nmi 0.922 ami 0.922 ari 0.897 f1 0.830 acc 0.893
+INFO: 2022-06-20 19:49:08,846 - root -  - SAVE PREDICTION RESULTS.

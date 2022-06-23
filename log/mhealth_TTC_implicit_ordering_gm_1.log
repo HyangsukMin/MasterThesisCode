@@ -1,0 +1,146 @@
+INFO: 2022-06-20 21:45:03,426 - root -  - {'commit': 'implicit_ordering_gm_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'mhealth', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 100, 'batch_size': 32, 'maxIters': 2, 'beta': 300, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noICC', 'n_filters': 8, 'n_latent': 10, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 21:45:03,477 - root -  - mhealth: Data size: (35174, 23) (35174,)
+INFO: 2022-06-20 21:45:10,153 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3044, 2454, 3137, 3046, 3032, 6115, 1976, 3163, 3041, 2090, 3203,
+        873]))
+INFO: 2022-06-20 21:45:10,241 - root -  - # EPOCH 2 | # Scoring: nmi 0.829 ami 0.829 ari 0.712 f1 0.729 acc 0.755
+INFO: 2022-06-20 21:45:10,242 - root -  - Changed total 0.992.
+INFO: 2022-06-20 21:45:50,507 - root -  - {'commit': 'implicit_ordering_gm_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'mhealth', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 100, 'batch_size': 32, 'maxIters': 2, 'beta': 300, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noICC', 'n_filters': 8, 'n_latent': 10, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 21:45:50,556 - root -  - mhealth: Data size: (35174, 23) (35174,)
+INFO: 2022-06-20 21:45:57,451 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([5263, 3061, 4082, 3265, 3032, 3054,  881, 2236, 2064, 2126, 3059,
+       3051]))
+INFO: 2022-06-20 21:45:57,584 - root -  - # EPOCH 2 | # Scoring: nmi 0.887 ami 0.886 ari 0.804 f1 0.785 acc 0.826
+INFO: 2022-06-20 21:45:57,585 - root -  - Changed total 0.981.
+INFO: 2022-06-20 21:46:01,985 - root -  - (array([ 0,  1,  2,  3,  6,  7,  8,  9, 10]), array([5076, 3058, 6089, 3278, 4857, 3029, 4362, 2370, 3055]))
+INFO: 2022-06-20 21:46:02,109 - root -  - # EPOCH 4 | # Scoring: nmi 0.859 ami 0.859 ari 0.724 f1 0.647 acc 0.758
+INFO: 2022-06-20 21:46:02,110 - root -  - Changed total 0.739.
+INFO: 2022-06-20 21:46:05,107 - root -  - (array([ 0,  1,  3,  6,  8,  9, 10]), array([    3,     3,  8210,  7804, 16353,  2799,     2]))
+INFO: 2022-06-20 21:46:05,204 - root -  - # EPOCH 6 | # Scoring: nmi 0.592 ami 0.592 ari 0.288 f1 0.200 acc 0.348
+INFO: 2022-06-20 21:46:05,205 - root -  - Changed total 0.889.
+INFO: 2022-06-20 21:46:07,204 - root -  - (array([3, 6, 8, 9]), array([ 3064,  7757, 21545,  2808]))
+INFO: 2022-06-20 21:46:07,282 - root -  - # EPOCH 8 | # Scoring: nmi 0.557 ami 0.557 ari 0.204 f1 0.231 acc 0.349
+INFO: 2022-06-20 21:46:07,283 - root -  - Changed total 0.316.
+INFO: 2022-06-20 21:46:09,581 - root -  - (array([3, 6, 8, 9]), array([    1, 11171, 20942,  3060]))
+INFO: 2022-06-20 21:46:09,672 - root -  - # EPOCH 10 | # Scoring: nmi 0.463 ami 0.463 ari 0.177 f1 0.138 acc 0.266
+INFO: 2022-06-20 21:46:09,673 - root -  - Changed total 0.113.
+INFO: 2022-06-20 21:46:11,562 - root -  - (array([6, 8, 9]), array([11370, 20799,  3005]))
+INFO: 2022-06-20 21:46:11,654 - root -  - # EPOCH 12 | # Scoring: nmi 0.458 ami 0.458 ari 0.175 f1 0.137 acc 0.265
+INFO: 2022-06-20 21:46:11,655 - root -  - Changed total 0.092.
+INFO: 2022-06-20 21:46:16,177 - root -  - (array([6, 8, 9]), array([10024,  6057, 19093]))
+INFO: 2022-06-20 21:46:16,270 - root -  - # EPOCH 14 | # Scoring: nmi 0.521 ami 0.521 ari 0.219 f1 0.118 acc 0.261
+INFO: 2022-06-20 21:46:16,271 - root -  - Changed total 0.682.
+INFO: 2022-06-20 21:46:17,957 - root -  - (array([6, 9]), array([ 3037, 32137]))
+INFO: 2022-06-20 21:46:18,042 - root -  - # EPOCH 16 | # Scoring: nmi 0.209 ami 0.209 ari 0.034 f1 0.099 acc 0.182
+INFO: 2022-06-20 21:46:18,042 - root -  - Changed total 0.457.
+INFO: 2022-06-20 21:46:19,108 - root -  - (array([6, 9]), array([    2, 35172]))
+INFO: 2022-06-20 21:46:19,181 - root -  - # EPOCH 18 | # Scoring: nmi 0.000 ami -0.000 ari -0.000 f1 0.015 acc 0.096
+INFO: 2022-06-20 21:46:19,182 - root -  - Changed total 0.086.
+INFO: 2022-06-20 21:46:20,742 - root -  - (array([9]), array([35174]))
+INFO: 2022-06-20 21:46:20,813 - root -  - # EPOCH 20 | # Scoring: nmi 0.000 ami -0.000 ari 0.000 f1 0.015 acc 0.096
+INFO: 2022-06-20 21:46:20,813 - root -  - Changed total 0.000.
+INFO: 2022-06-20 21:46:20,813 - root -  - CONVERGED!!!
+INFO: 2022-06-20 21:46:21,609 - root -  - (array([9]), array([35174]))
+INFO: 2022-06-20 21:46:21,679 - root -  - # EPOCH 20 | # Scoring: nmi 0.000 ami -0.000 ari 0.000 f1 0.015 acc 0.096
+INFO: 2022-06-20 21:46:21,680 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:46:21,681 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:46:21,849 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:46:24,443 - root -  - # FINAL SCORE @ EPOCH 20 | # Scoring: nmi 0.000 ami -0.000 ari 0.000 f1 0.015 acc 0.096
+INFO: 2022-06-20 21:46:24,513 - root -  - SAVE PREDICTION RESULTS.
+INFO: 2022-06-20 21:58:20,376 - root -  - {'commit': 'implicit_ordering_gm_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'mhealth', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 100, 'batch_size': 32, 'maxIters': 2, 'beta': 300, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noICC', 'n_filters': 8, 'n_latent': 10, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 21:58:20,428 - root -  - mhealth: Data size: (35174, 23) (35174,)
+INFO: 2022-06-20 21:58:28,525 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3060, 3017, 2056, 6133, 6192, 3060, 3297,  646, 2811, 1450, 1982,
+       1470]))
+INFO: 2022-06-20 21:58:28,642 - root -  - # EPOCH 2 | # Scoring: nmi 0.830 ami 0.830 ari 0.708 f1 0.643 acc 0.697
+INFO: 2022-06-20 21:58:28,644 - root -  - Changed total 0.640.
+INFO: 2022-06-20 21:58:32,415 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([2813, 3068, 2741, 3278, 3060, 3125, 3063, 3845, 3066, 2740, 2101,
+       2274]))
+INFO: 2022-06-20 21:58:32,513 - root -  - # EPOCH 4 | # Scoring: nmi 0.876 ami 0.876 ari 0.818 f1 0.843 acc 0.866
+INFO: 2022-06-20 21:58:32,516 - root -  - Changed total 0.833.
+INFO: 2022-06-20 21:58:36,254 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([1795, 6430, 2998,  900, 3067, 3066, 5767, 2705, 3067, 3060,  845,
+       1474]))
+INFO: 2022-06-20 21:58:36,384 - root -  - # EPOCH 6 | # Scoring: nmi 0.830 ami 0.830 ari 0.699 f1 0.651 acc 0.705
+INFO: 2022-06-20 21:58:36,385 - root -  - Changed total 0.431.
+INFO: 2022-06-20 21:58:39,722 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3060, 6415, 1254, 3066, 3067, 5787, 2022, 3067, 1342, 2988, 1805,
+       1301]))
+INFO: 2022-06-20 21:58:39,808 - root -  - # EPOCH 8 | # Scoring: nmi 0.828 ami 0.827 ari 0.704 f1 0.676 acc 0.715
+INFO: 2022-06-20 21:58:39,809 - root -  - Changed total 0.163.
+INFO: 2022-06-20 21:58:42,818 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3067, 3068, 3276, 6126, 2760, 3066, 2600, 2802, 3016, 1691,  429,
+       3273]))
+INFO: 2022-06-20 21:58:42,951 - root -  - # EPOCH 10 | # Scoring: nmi 0.856 ami 0.856 ari 0.751 f1 0.740 acc 0.775
+INFO: 2022-06-20 21:58:42,952 - root -  - Changed total 0.413.
+INFO: 2022-06-20 21:58:46,819 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3067, 3198, 3066, 2357, 3067, 3291, 3060, 1963, 2804, 3056, 3742,
+       2503]))
+INFO: 2022-06-20 21:58:46,960 - root -  - # EPOCH 12 | # Scoring: nmi 0.873 ami 0.873 ari 0.814 f1 0.830 acc 0.853
+INFO: 2022-06-20 21:58:46,962 - root -  - Changed total 0.242.
+INFO: 2022-06-20 21:58:51,013 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3068, 2088, 3062, 3314, 3153, 4402, 3060, 3066, 2002, 1864, 3035,
+       3060]))
+INFO: 2022-06-20 21:58:51,108 - root -  - # EPOCH 14 | # Scoring: nmi 0.881 ami 0.881 ari 0.816 f1 0.839 acc 0.865
+INFO: 2022-06-20 21:58:51,109 - root -  - Changed total 0.247.
+INFO: 2022-06-20 21:58:54,246 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3067, 1789, 3064, 3021, 3066, 3413, 2795, 3065, 3306, 3061, 2499,
+       3028]))
+INFO: 2022-06-20 21:58:54,384 - root -  - # EPOCH 16 | # Scoring: nmi 0.898 ami 0.898 ari 0.852 f1 0.855 acc 0.876
+INFO: 2022-06-20 21:58:54,385 - root -  - Changed total 0.221.
+INFO: 2022-06-20 21:58:57,767 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3066, 2437, 3066, 3560, 2389, 3057, 2815, 2526, 3065, 3302, 3050,
+       2841]))
+INFO: 2022-06-20 21:58:57,911 - root -  - # EPOCH 18 | # Scoring: nmi 0.877 ami 0.877 ari 0.830 f1 0.853 acc 0.877
+INFO: 2022-06-20 21:58:57,913 - root -  - Changed total 0.479.
+INFO: 2022-06-20 21:59:00,883 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3064, 2084, 3969, 1757, 3057, 3066, 2810, 1843, 3065, 2132, 3328,
+       4999]))
+INFO: 2022-06-20 21:59:01,017 - root -  - # EPOCH 20 | # Scoring: nmi 0.840 ami 0.840 ari 0.757 f1 0.742 acc 0.779
+INFO: 2022-06-20 21:59:01,019 - root -  - Changed total 0.805.
+INFO: 2022-06-20 21:59:04,676 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3246, 4418, 3064, 3065, 1890, 2355, 3065, 2810, 3057,  976, 2481,
+       4747]))
+INFO: 2022-06-20 21:59:04,768 - root -  - # EPOCH 22 | # Scoring: nmi 0.810 ami 0.810 ari 0.705 f1 0.716 acc 0.754
+INFO: 2022-06-20 21:59:04,770 - root -  - Changed total 0.482.
+INFO: 2022-06-20 21:59:07,174 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3056, 3064, 1977, 3806, 3063, 3065, 2811, 2306, 4649, 1783, 3734,
+       1860]))
+INFO: 2022-06-20 21:59:07,307 - root -  - # EPOCH 24 | # Scoring: nmi 0.843 ami 0.843 ari 0.762 f1 0.759 acc 0.793
+INFO: 2022-06-20 21:59:07,309 - root -  - Changed total 0.489.
+INFO: 2022-06-20 21:59:09,867 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([2301, 3063, 3807, 3063, 3056, 1858, 3063, 2837, 1968, 1801, 3744,
+       4613]))
+INFO: 2022-06-20 21:59:10,003 - root -  - # EPOCH 26 | # Scoring: nmi 0.842 ami 0.842 ari 0.761 f1 0.758 acc 0.793
+INFO: 2022-06-20 21:59:10,005 - root -  - Changed total 0.217.
+INFO: 2022-06-20 21:59:15,182 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([2643, 3025, 3064, 2669, 3062, 3056, 3064, 3293, 2362, 3039, 3068,
+       2829]))
+INFO: 2022-06-20 21:59:15,329 - root -  - # EPOCH 28 | # Scoring: nmi 0.892 ami 0.892 ari 0.858 f1 0.868 acc 0.891
+INFO: 2022-06-20 21:59:15,330 - root -  - Changed total 0.909.
+INFO: 2022-06-20 21:59:18,629 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([1943, 6263, 2750, 3066, 3059, 2791, 3061, 3128, 3031, 2164, 2666,
+       1252]))
+INFO: 2022-06-20 21:59:18,770 - root -  - # EPOCH 30 | # Scoring: nmi 0.859 ami 0.859 ari 0.757 f1 0.758 acc 0.788
+INFO: 2022-06-20 21:59:18,772 - root -  - Changed total 0.544.
+INFO: 2022-06-20 21:59:20,923 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([6317, 1900, 3056, 3063, 3059, 2349, 1447, 3062, 3027, 2825, 2026,
+       3043]))
+INFO: 2022-06-20 21:59:21,059 - root -  - # EPOCH 32 | # Scoring: nmi 0.857 ami 0.857 ari 0.771 f1 0.749 acc 0.782
+INFO: 2022-06-20 21:59:21,060 - root -  - Changed total 0.617.
+INFO: 2022-06-20 21:59:23,523 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([2152, 3058, 3062, 4468, 3057, 2000, 3056, 2843, 2106, 3661, 2655,
+       3056]))
+INFO: 2022-06-20 21:59:23,663 - root -  - # EPOCH 34 | # Scoring: nmi 0.822 ami 0.822 ari 0.734 f1 0.768 acc 0.794
+INFO: 2022-06-20 21:59:23,665 - root -  - Changed total 0.622.
+INFO: 2022-06-20 21:59:25,689 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3056, 3309, 3058, 3058, 3009, 2758, 2821, 3057, 3060, 2208, 3882,
+       1898]))
+INFO: 2022-06-20 21:59:25,827 - root -  - # EPOCH 36 | # Scoring: nmi 0.871 ami 0.871 ari 0.807 f1 0.835 acc 0.857
+INFO: 2022-06-20 21:59:25,829 - root -  - Changed total 0.806.
+INFO: 2022-06-20 21:59:28,418 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3745, 3056, 1919, 1924, 3056, 3060, 3057, 2830, 2302, 3823, 4347,
+       2055]))
+INFO: 2022-06-20 21:59:28,554 - root -  - # EPOCH 38 | # Scoring: nmi 0.836 ami 0.836 ari 0.753 f1 0.762 acc 0.787
+INFO: 2022-06-20 21:59:28,555 - root -  - Changed total 0.900.
+INFO: 2022-06-20 21:59:30,472 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3086, 3310, 3055, 3060, 3058, 2993, 2815, 3057, 3828, 1883, 2759,
+       2270]))
+INFO: 2022-06-20 21:59:30,610 - root -  - # EPOCH 40 | # Scoring: nmi 0.872 ami 0.872 ari 0.809 f1 0.836 acc 0.858
+INFO: 2022-06-20 21:59:30,612 - root -  - Changed total 0.897.
+INFO: 2022-06-20 21:59:32,761 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3051, 2758, 3312, 2822, 3055, 2754, 3080, 3060, 1871, 3961, 3306,
+       2144]))
+INFO: 2022-06-20 21:59:32,900 - root -  - # EPOCH 42 | # Scoring: nmi 0.859 ami 0.859 ari 0.786 f1 0.825 acc 0.846
+INFO: 2022-06-20 21:59:32,901 - root -  - Changed total 0.017.
+INFO: 2022-06-20 21:59:34,810 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3980, 3087, 3054, 3312, 3051, 3060, 2727, 1893, 3309, 2128, 2819,
+       2754]))
+INFO: 2022-06-20 21:59:34,947 - root -  - # EPOCH 44 | # Scoring: nmi 0.859 ami 0.859 ari 0.786 f1 0.824 acc 0.846
+INFO: 2022-06-20 21:59:34,949 - root -  - Changed total 0.003.
+INFO: 2022-06-20 21:59:34,949 - root -  - CONVERGED!!!
+INFO: 2022-06-20 21:59:38,958 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11]), array([3056, 2824, 3051, 3022, 3976, 3060, 2509, 3055, 2492, 3307, 2129,
+       2693]))
+INFO: 2022-06-20 21:59:39,105 - root -  - # EPOCH 44 | # Scoring: nmi 0.869 ami 0.869 ari 0.808 f1 0.840 acc 0.862
+INFO: 2022-06-20 21:59:39,107 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:59:39,109 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:59:39,332 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:59:42,940 - root -  - # FINAL SCORE @ EPOCH 44 | # Scoring: nmi 0.869 ami 0.869 ari 0.808 f1 0.840 acc 0.862
+INFO: 2022-06-20 21:59:43,049 - root -  - SAVE PREDICTION RESULTS.

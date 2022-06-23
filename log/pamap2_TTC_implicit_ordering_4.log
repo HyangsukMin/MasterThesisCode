@@ -1,0 +1,45 @@
+INFO: 2022-06-20 18:05:04,720 - root -  - {'commit': 'implicit_ordering_4', 'exp': 4, 'savefig': True, 'saveResults': True, 'gpu_num': 3, 'dataset': 'pamap2', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 100, 'batch_size': 32, 'maxIters': 2, 'beta': 100, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'None', 'n_filters': 8, 'n_latent': 20, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 18:05:04,781 - root -  - pamap2: Data size: (51843, 51) (51843,)
+INFO: 2022-06-20 18:05:11,130 - root -  - Data shape: (51843, 20)
+INFO: 2022-06-20 18:05:28,005 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([4432, 5070, 2490, 5603, 3577, 4254, 4735, 4784, 3478, 2705, 6441,
+       4274]))
+INFO: 2022-06-20 18:05:28,267 - root -  - # EPOCH 2 | # Scoring: nmi 0.800 ami 0.799 ari 0.675 f1 0.660 acc 0.707
+INFO: 2022-06-20 18:05:28,268 - root -  - Changed total 0.735.
+INFO: 2022-06-20 18:05:28,956 - root -  - Data shape: (51843, 20)
+INFO: 2022-06-20 18:05:46,197 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([4803, 4411, 4115, 4972, 2176, 5029, 3392, 6047, 3121, 3021, 6322,
+       4434]))
+INFO: 2022-06-20 18:05:46,452 - root -  - # EPOCH 4 | # Scoring: nmi 0.812 ami 0.812 ari 0.728 f1 0.679 acc 0.759
+INFO: 2022-06-20 18:05:46,453 - root -  - Changed total 0.433.
+INFO: 2022-06-20 18:05:47,189 - root -  - Data shape: (51843, 20)
+INFO: 2022-06-20 18:06:03,919 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([4937, 4410, 4325, 4962, 4920, 2159, 2981, 6229, 3528, 2601, 4406,
+       6385]))
+INFO: 2022-06-20 18:06:04,166 - root -  - # EPOCH 6 | # Scoring: nmi 0.818 ami 0.818 ari 0.731 f1 0.678 acc 0.757
+INFO: 2022-06-20 18:06:04,167 - root -  - Changed total 0.230.
+INFO: 2022-06-20 18:06:04,732 - root -  - Data shape: (51843, 20)
+INFO: 2022-06-20 18:06:21,610 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([5060, 4409, 4212, 5059, 4763, 2159, 2990, 6271, 3554, 2580, 6386,
+       4400]))
+INFO: 2022-06-20 18:06:21,867 - root -  - # EPOCH 8 | # Scoring: nmi 0.822 ami 0.822 ari 0.734 f1 0.680 acc 0.758
+INFO: 2022-06-20 18:06:21,868 - root -  - Changed total 0.008.
+INFO: 2022-06-20 18:06:22,542 - root -  - Data shape: (51843, 20)
+INFO: 2022-06-20 18:06:41,416 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([5145, 4409, 4081, 5105, 4763, 2159, 2994, 6269, 3557, 2575, 6413,
+       4373]))
+INFO: 2022-06-20 18:06:41,685 - root -  - # EPOCH 10 | # Scoring: nmi 0.822 ami 0.822 ari 0.731 f1 0.678 acc 0.757
+INFO: 2022-06-20 18:06:41,686 - root -  - Changed total 0.005.
+INFO: 2022-06-20 18:06:41,966 - root -  - CONVERGED!!!
+INFO: 2022-06-20 18:06:42,054 - root -  - Data shape: (51843, 20)
+INFO: 2022-06-20 18:08:13,259 - root -  - 
+CONVERGED!!! BREAKING EARLY!!!
+INFO: 2022-06-20 18:08:13,347 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([3884, 4405, 4422, 5206, 4704, 2092, 3029, 5955, 4433, 2934, 6400,
+       4379]))
+INFO: 2022-06-20 18:08:13,604 - root -  - # EPOCH 11 | # Scoring: nmi 0.820 ami 0.820 ari 0.721 f1 0.674 acc 0.744
+INFO: 2022-06-20 18:08:13,605 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 18:08:13,610 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 18:08:13,908 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 18:08:23,824 - root -  - # FINAL SCORE @ EPOCH 11 | # Scoring: nmi 0.820 ami 0.820 ari 0.721 f1 0.674 acc 0.744
+INFO: 2022-06-20 18:08:24,066 - root -  - SAVE PREDICTION RESULTS.

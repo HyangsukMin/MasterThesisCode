@@ -1,0 +1,34 @@
+INFO: 2022-06-20 21:32:16,793 - root -  - {'commit': 'implicit_ordering_noPseudo_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'skoda', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 10, 'batch_size': 32, 'maxIters': 10, 'beta': 200, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noPseudo', 'n_filters': 8, 'n_latent': 20, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 4, 'sampling_factor': 16}
+INFO: 2022-06-20 21:32:16,961 - root -  - skoda: Data size: (107951, 60) (107951,)
+INFO: 2022-06-20 21:32:22,342 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 21:33:44,530 - root -  - 
+CONVERGED!!! BREAKING EARLY!!!
+INFO: 2022-06-20 21:33:44,607 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12491,  1066, 28340, 22065, 11774, 10577, 13804,  7834]))
+INFO: 2022-06-20 21:33:45,069 - root -  - # EPOCH 1 | # Scoring: nmi 0.926 ami 0.926 ari 0.886 f1 0.833 acc 0.891
+INFO: 2022-06-20 21:33:45,071 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:33:45,079 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:33:45,768 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:33:59,927 - root -  - # FINAL SCORE @ EPOCH 1 | # Scoring: nmi 0.926 ami 0.926 ari 0.886 f1 0.833 acc 0.891
+INFO: 2022-06-20 21:34:00,398 - root -  - SAVE PREDICTION RESULTS.
+INFO: 2022-06-20 21:42:59,252 - root -  - {'commit': 'implicit_ordering_noPseudo_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'skoda', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 10, 'batch_size': 32, 'maxIters': 10, 'beta': 200, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noPseudo', 'n_filters': 8, 'n_latent': 20, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 4, 'sampling_factor': 16}
+INFO: 2022-06-20 21:42:59,504 - root -  - skoda: Data size: (107951, 60) (107951,)
+INFO: 2022-06-20 21:43:05,009 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 21:44:53,181 - root -  - 
+CONVERGED!!! BREAKING EARLY!!!
+INFO: 2022-06-20 21:44:53,298 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12448,   883, 28630, 21711, 12030, 10607, 13860,  7782]))
+INFO: 2022-06-20 21:44:53,779 - root -  - # EPOCH 1 | # Scoring: nmi 0.916 ami 0.916 ari 0.876 f1 0.832 acc 0.890
+INFO: 2022-06-20 21:44:53,782 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:44:53,800 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:44:55,126 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:45:09,746 - root -  - # FINAL SCORE @ EPOCH 1 | # Scoring: nmi 0.916 ami 0.916 ari 0.876 f1 0.832 acc 0.890
+INFO: 2022-06-20 21:45:10,251 - root -  - SAVE PREDICTION RESULTS.
+INFO: 2022-06-20 21:57:34,860 - root -  - {'commit': 'implicit_ordering_noPseudo_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'skoda', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 10, 'batch_size': 32, 'maxIters': 10, 'beta': 200, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noPseudo', 'n_filters': 8, 'n_latent': 20, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 4, 'sampling_factor': 16}
+INFO: 2022-06-20 21:57:35,071 - root -  - skoda: Data size: (107951, 60) (107951,)
+INFO: 2022-06-20 21:57:40,365 - root -  - Data shape: (107951, 20)
+INFO: 2022-06-20 21:59:47,549 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000]), array([12542,   975, 42421, 13129, 12421,  4978, 13719,  7766]))
+INFO: 2022-06-20 21:59:48,022 - root -  - # EPOCH 1 | # Scoring: nmi 0.798 ami 0.798 ari 0.653 f1 0.749 acc 0.797
+INFO: 2022-06-20 21:59:48,024 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:59:48,052 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:59:49,369 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 22:00:05,485 - root -  - # FINAL SCORE @ EPOCH 1 | # Scoring: nmi 0.798 ami 0.798 ari 0.653 f1 0.749 acc 0.797
+INFO: 2022-06-20 22:00:06,012 - root -  - SAVE PREDICTION RESULTS.

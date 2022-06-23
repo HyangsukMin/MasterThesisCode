@@ -1,0 +1,42 @@
+INFO: 2022-06-20 21:27:27,069 - root -  - {'commit': 'implicit_ordering_noPseudo_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'mhealth', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 10, 'batch_size': 32, 'maxIters': 10, 'beta': 300, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noPseudo', 'n_filters': 8, 'n_latent': 10, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 21:27:27,123 - root -  - mhealth: Data size: (35174, 23) (35174,)
+INFO: 2022-06-20 21:27:31,681 - root -  - Data shape: (35174, 10)
+INFO: 2022-06-20 21:28:04,072 - root -  - 
+CONVERGED!!! BREAKING EARLY!!!
+INFO: 2022-06-20 21:28:04,138 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([3072, 3073, 3069, 3071, 3073, 3036, 4152, 2768,  305, 3600, 3625,
+       2330]))
+INFO: 2022-06-20 21:28:04,326 - root -  - # EPOCH 1 | # Scoring: nmi 0.940 ami 0.940 ari 0.889 f1 0.865 acc 0.923
+INFO: 2022-06-20 21:28:04,327 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:28:04,329 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:28:04,492 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:28:13,441 - root -  - # FINAL SCORE @ EPOCH 1 | # Scoring: nmi 0.940 ami 0.940 ari 0.889 f1 0.865 acc 0.923
+INFO: 2022-06-20 21:28:13,619 - root -  - SAVE PREDICTION RESULTS.
+INFO: 2022-06-20 21:31:59,611 - root -  - {'commit': 'implicit_ordering_noPseudo_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'mhealth', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 10, 'batch_size': 32, 'maxIters': 10, 'beta': 300, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noPseudo', 'n_filters': 8, 'n_latent': 10, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 21:31:59,662 - root -  - mhealth: Data size: (35174, 23) (35174,)
+INFO: 2022-06-20 21:32:04,106 - root -  - Data shape: (35174, 10)
+INFO: 2022-06-20 21:32:32,496 - root -  - 
+CONVERGED!!! BREAKING EARLY!!!
+INFO: 2022-06-20 21:32:32,589 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([3072, 3073, 3072, 3177, 3072, 3073, 3603, 3071, 4166, 2078,  980,
+       2737]))
+INFO: 2022-06-20 21:32:32,772 - root -  - # EPOCH 1 | # Scoring: nmi 0.958 ami 0.958 ari 0.924 f1 0.879 acc 0.931
+INFO: 2022-06-20 21:32:32,773 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:32:32,775 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:32:32,992 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:32:40,627 - root -  - # FINAL SCORE @ EPOCH 1 | # Scoring: nmi 0.958 ami 0.958 ari 0.924 f1 0.879 acc 0.931
+INFO: 2022-06-20 21:32:40,798 - root -  - SAVE PREDICTION RESULTS.
+INFO: 2022-06-20 21:50:15,684 - root -  - {'commit': 'implicit_ordering_noPseudo_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'mhealth', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 10, 'batch_size': 32, 'maxIters': 10, 'beta': 300, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noPseudo', 'n_filters': 8, 'n_latent': 10, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 21:50:15,735 - root -  - mhealth: Data size: (35174, 23) (35174,)
+INFO: 2022-06-20 21:50:20,431 - root -  - Data shape: (35174, 10)
+INFO: 2022-06-20 21:50:44,645 - root -  - 
+CONVERGED!!! BREAKING EARLY!!!
+INFO: 2022-06-20 21:50:44,730 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([3072, 3073, 3070, 3226, 3088, 3429, 3949, 3057, 1800, 2709, 2729,
+       1972]))
+INFO: 2022-06-20 21:50:44,916 - root -  - # EPOCH 1 | # Scoring: nmi 0.922 ami 0.922 ari 0.876 f1 0.903 acc 0.919
+INFO: 2022-06-20 21:50:44,917 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:50:44,920 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:50:45,145 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:50:53,276 - root -  - # FINAL SCORE @ EPOCH 1 | # Scoring: nmi 0.922 ami 0.922 ari 0.876 f1 0.903 acc 0.919
+INFO: 2022-06-20 21:50:53,454 - root -  - SAVE PREDICTION RESULTS.

@@ -1,0 +1,76 @@
+INFO: 2022-06-20 21:04:38,341 - root -  - {'commit': 'implicit_ordering_km3_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'mhealth', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 100, 'batch_size': 32, 'maxIters': 2, 'beta': 300, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noICC', 'n_filters': 8, 'n_latent': 10, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 21:04:38,394 - root -  - mhealth: Data size: (35174, 23) (35174,)
+INFO: 2022-06-20 21:04:45,246 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3070, 2408, 3319, 2478, 2806, 2747, 3935, 3071, 3310, 3340, 2670,
+       2020]))
+INFO: 2022-06-20 21:04:45,446 - root -  - # EPOCH 2 | # Scoring: nmi 0.799 ami 0.799 ari 0.706 f1 0.758 acc 0.783
+INFO: 2022-06-20 21:04:45,447 - root -  - Changed total 0.835.
+INFO: 2022-06-20 21:04:46,005 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3070, 2411, 3314, 2510, 2810, 2805, 3911, 3078, 3310, 3401, 2625,
+       1929]))
+INFO: 2022-06-20 21:04:46,178 - root -  - # EPOCH 4 | # Scoring: nmi 0.800 ami 0.800 ari 0.707 f1 0.759 acc 0.785
+INFO: 2022-06-20 21:04:46,179 - root -  - Changed total 0.014.
+INFO: 2022-06-20 21:04:47,037 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3070, 2396, 3231, 2477, 2843, 2801, 3894, 3143, 3314, 3391, 2651,
+       1963]))
+INFO: 2022-06-20 21:04:47,178 - root -  - # EPOCH 6 | # Scoring: nmi 0.800 ami 0.799 ari 0.708 f1 0.760 acc 0.785
+INFO: 2022-06-20 21:04:47,179 - root -  - Changed total 0.290.
+INFO: 2022-06-20 21:04:47,849 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3070, 2383, 3243, 2493, 2843, 2800, 3894, 3145, 3313, 3343, 2702,
+       1945]))
+INFO: 2022-06-20 21:04:47,989 - root -  - # EPOCH 8 | # Scoring: nmi 0.800 ami 0.800 ari 0.709 f1 0.762 acc 0.787
+INFO: 2022-06-20 21:04:47,991 - root -  - Changed total 0.009.
+INFO: 2022-06-20 21:04:48,677 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3070, 2366, 3239, 2521, 2834, 2780, 3886, 3143, 3307, 3307, 2784,
+       1937]))
+INFO: 2022-06-20 21:04:48,834 - root -  - # EPOCH 10 | # Scoring: nmi 0.800 ami 0.799 ari 0.709 f1 0.762 acc 0.786
+INFO: 2022-06-20 21:04:48,836 - root -  - Changed total 0.341.
+INFO: 2022-06-20 21:04:49,460 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3069, 2356, 3231, 2518, 2822, 2725, 3869, 3139, 3311, 3235, 2903,
+       1996]))
+INFO: 2022-06-20 21:04:49,601 - root -  - # EPOCH 12 | # Scoring: nmi 0.799 ami 0.799 ari 0.707 f1 0.761 acc 0.783
+INFO: 2022-06-20 21:04:49,603 - root -  - Changed total 0.009.
+INFO: 2022-06-20 21:04:49,603 - root -  - CONVERGED!!!
+INFO: 2022-06-20 21:04:49,704 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3069, 2356, 3231, 2507, 2822, 2733, 3869, 3139, 3311, 3240, 2898,
+       1999]))
+INFO: 2022-06-20 21:04:49,844 - root -  - # EPOCH 12 | # Scoring: nmi 0.799 ami 0.799 ari 0.707 f1 0.761 acc 0.783
+INFO: 2022-06-20 21:04:49,846 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:04:49,847 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:04:49,998 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:04:53,596 - root -  - # FINAL SCORE @ EPOCH 12 | # Scoring: nmi 0.799 ami 0.799 ari 0.707 f1 0.761 acc 0.783
+INFO: 2022-06-20 21:04:53,705 - root -  - SAVE PREDICTION RESULTS.
+INFO: 2022-06-20 21:09:52,591 - root -  - {'commit': 'implicit_ordering_km3_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'mhealth', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 100, 'batch_size': 32, 'maxIters': 2, 'beta': 300, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noICC', 'n_filters': 8, 'n_latent': 10, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 21:09:52,696 - root -  - mhealth: Data size: (35174, 23) (35174,)
+INFO: 2022-06-20 21:09:59,229 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3667, 3758, 4866, 1162, 3681, 3107, 5559, 1922, 1559, 2290, 1784,
+       1819]))
+INFO: 2022-06-20 21:09:59,362 - root -  - # EPOCH 2 | # Scoring: nmi 0.751 ami 0.751 ari 0.615 f1 0.647 acc 0.701
+INFO: 2022-06-20 21:09:59,363 - root -  - Changed total 0.790.
+INFO: 2022-06-20 21:09:59,952 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3706, 3699, 4961, 1181, 3666, 3101, 5545, 1865, 1519, 2283, 1865,
+       1783]))
+INFO: 2022-06-20 21:10:00,091 - root -  - # EPOCH 4 | # Scoring: nmi 0.753 ami 0.753 ari 0.613 f1 0.647 acc 0.700
+INFO: 2022-06-20 21:10:00,093 - root -  - Changed total 0.108.
+INFO: 2022-06-20 21:10:00,750 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3727, 3734, 5008, 1165, 3604, 3103, 5543, 1861, 1500, 2304, 1870,
+       1755]))
+INFO: 2022-06-20 21:10:00,885 - root -  - # EPOCH 6 | # Scoring: nmi 0.753 ami 0.753 ari 0.612 f1 0.646 acc 0.699
+INFO: 2022-06-20 21:10:00,887 - root -  - Changed total 0.396.
+INFO: 2022-06-20 21:10:01,553 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3700, 3806, 5021, 1148, 3561, 3105, 5554, 1863, 1492, 2320, 1867,
+       1737]))
+INFO: 2022-06-20 21:10:01,685 - root -  - # EPOCH 8 | # Scoring: nmi 0.754 ami 0.754 ari 0.612 f1 0.646 acc 0.699
+INFO: 2022-06-20 21:10:01,686 - root -  - Changed total 0.343.
+INFO: 2022-06-20 21:10:02,382 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3684, 3901, 5014, 1165, 3478, 3110, 5571, 1859, 1503, 2317, 1847,
+       1725]))
+INFO: 2022-06-20 21:10:02,512 - root -  - # EPOCH 10 | # Scoring: nmi 0.755 ami 0.755 ari 0.613 f1 0.647 acc 0.700
+INFO: 2022-06-20 21:10:02,514 - root -  - Changed total 0.338.
+INFO: 2022-06-20 21:10:03,108 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3655, 3999, 4962, 1154, 3409, 3123, 5604, 1893, 1535, 2335, 1791,
+       1714]))
+INFO: 2022-06-20 21:10:03,241 - root -  - # EPOCH 12 | # Scoring: nmi 0.757 ami 0.757 ari 0.616 f1 0.647 acc 0.700
+INFO: 2022-06-20 21:10:03,243 - root -  - Changed total 0.165.
+INFO: 2022-06-20 21:10:03,862 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3653, 4050, 4944, 1141, 3381, 3135, 5587, 1925, 1558, 2360, 1738,
+       1702]))
+INFO: 2022-06-20 21:10:04,046 - root -  - # EPOCH 14 | # Scoring: nmi 0.757 ami 0.756 ari 0.616 f1 0.646 acc 0.700
+INFO: 2022-06-20 21:10:04,048 - root -  - Changed total 0.197.
+INFO: 2022-06-20 21:10:04,786 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3669, 4074, 4928, 1127, 3362, 3140, 5609, 1929, 1562, 2401, 1688,
+       1685]))
+INFO: 2022-06-20 21:10:04,921 - root -  - # EPOCH 16 | # Scoring: nmi 0.757 ami 0.756 ari 0.616 f1 0.644 acc 0.699
+INFO: 2022-06-20 21:10:04,923 - root -  - Changed total 0.008.
+INFO: 2022-06-20 21:10:04,923 - root -  - CONVERGED!!!
+INFO: 2022-06-20 21:10:05,036 - root -  - (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11], dtype=int32), array([3669, 4074, 4928, 1127, 3362, 3140, 5609, 1927, 1562, 2402, 1689,
+       1685]))
+INFO: 2022-06-20 21:10:05,168 - root -  - # EPOCH 16 | # Scoring: nmi 0.757 ami 0.756 ari 0.616 f1 0.644 acc 0.699
+INFO: 2022-06-20 21:10:05,170 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:10:05,171 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:10:05,395 - root -  - SAVE PREDICTION PLOT.

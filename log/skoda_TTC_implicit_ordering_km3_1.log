@@ -1,0 +1,25 @@
+INFO: 2022-06-20 21:04:55,964 - root -  - {'commit': 'implicit_ordering_km3_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'skoda', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 100, 'batch_size': 32, 'maxIters': 2, 'beta': 200, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noICC', 'n_filters': 8, 'n_latent': 20, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 4, 'sampling_factor': 16}
+INFO: 2022-06-20 21:04:56,175 - root -  - skoda: Data size: (107951, 60) (107951,)
+INFO: 2022-06-20 21:05:07,387 - root -  - (array([0, 1, 2, 3, 4, 5, 6, 7], dtype=int32), array([12105, 22787,  1100, 15916, 13288,  9634,  5778, 27343]))
+INFO: 2022-06-20 21:05:07,797 - root -  - # EPOCH 2 | # Scoring: nmi 0.600 ami 0.600 ari 0.434 f1 0.603 acc 0.626
+INFO: 2022-06-20 21:05:07,803 - root -  - Changed total 0.840.
+INFO: 2022-06-20 21:05:09,801 - root -  - (array([0, 1, 2, 3, 4, 5, 6, 7], dtype=int32), array([11622, 22873,  1093, 16079, 13212,  9189,  6055, 27828]))
+INFO: 2022-06-20 21:05:10,067 - root -  - # EPOCH 4 | # Scoring: nmi 0.599 ami 0.599 ari 0.432 f1 0.602 acc 0.626
+INFO: 2022-06-20 21:05:10,070 - root -  - Changed total 0.254.
+INFO: 2022-06-20 21:05:11,718 - root -  - (array([0, 1, 2, 3, 4, 5, 6, 7], dtype=int32), array([11337, 23549,  1092, 16281, 13118,  8441,  6044, 28089]))
+INFO: 2022-06-20 21:05:12,006 - root -  - # EPOCH 6 | # Scoring: nmi 0.596 ami 0.596 ari 0.426 f1 0.597 acc 0.623
+INFO: 2022-06-20 21:05:12,010 - root -  - Changed total 0.020.
+INFO: 2022-06-20 21:05:13,697 - root -  - (array([0, 1, 2, 3, 4, 5, 6, 7], dtype=int32), array([11326, 23605,  1095, 16370, 13098,  8183,  6101, 28173]))
+INFO: 2022-06-20 21:05:14,081 - root -  - # EPOCH 8 | # Scoring: nmi 0.594 ami 0.594 ari 0.423 f1 0.595 acc 0.620
+INFO: 2022-06-20 21:05:14,086 - root -  - Changed total 0.007.
+INFO: 2022-06-20 21:05:15,784 - root -  - (array([0, 1, 2, 3, 4, 5, 6, 7], dtype=int32), array([11360, 23664,  1096, 16370, 13058,  8033,  6199, 28171]))
+INFO: 2022-06-20 21:05:16,022 - root -  - # EPOCH 10 | # Scoring: nmi 0.594 ami 0.594 ari 0.422 f1 0.594 acc 0.619
+INFO: 2022-06-20 21:05:16,025 - root -  - Changed total 0.005.
+INFO: 2022-06-20 21:05:16,723 - root -  - CONVERGED!!!
+INFO: 2022-06-20 21:05:17,050 - root -  - (array([0, 1, 2, 3, 4, 5, 6, 7], dtype=int32), array([11379, 23675,  1094, 16375, 13039,  8010,  6239, 28140]))
+INFO: 2022-06-20 21:05:17,305 - root -  - # EPOCH 11 | # Scoring: nmi 0.594 ami 0.594 ari 0.423 f1 0.594 acc 0.619
+INFO: 2022-06-20 21:05:17,308 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:05:17,309 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:05:18,025 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:05:23,320 - root -  - # FINAL SCORE @ EPOCH 11 | # Scoring: nmi 0.594 ami 0.594 ari 0.423 f1 0.594 acc 0.619
+INFO: 2022-06-20 21:05:23,515 - root -  - SAVE PREDICTION RESULTS.

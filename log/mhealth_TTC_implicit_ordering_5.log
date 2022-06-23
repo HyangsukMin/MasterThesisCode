@@ -1,0 +1,45 @@
+INFO: 2022-06-20 17:58:57,394 - root -  - {'commit': 'implicit_ordering_5', 'exp': 5, 'savefig': True, 'saveResults': True, 'gpu_num': 4, 'dataset': 'mhealth', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 100, 'batch_size': 32, 'maxIters': 2, 'beta': 300, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'None', 'n_filters': 8, 'n_latent': 10, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 17:58:57,446 - root -  - mhealth: Data size: (35174, 23) (35174,)
+INFO: 2022-06-20 17:59:02,319 - root -  - Data shape: (35174, 10)
+INFO: 2022-06-20 17:59:13,833 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([3255, 3072, 3072, 3525, 3633, 3180, 3854, 2769,  309, 4252, 2967,
+       1286]))
+INFO: 2022-06-20 17:59:14,017 - root -  - # EPOCH 2 | # Scoring: nmi 0.891 ami 0.891 ari 0.829 f1 0.825 acc 0.890
+INFO: 2022-06-20 17:59:14,018 - root -  - Changed total 0.278.
+INFO: 2022-06-20 17:59:14,510 - root -  - Data shape: (35174, 10)
+INFO: 2022-06-20 17:59:26,109 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([3255, 3072, 3072, 3524, 3637, 3184, 3854, 2769,  308, 4771, 2449,
+       1279]))
+INFO: 2022-06-20 17:59:26,283 - root -  - # EPOCH 4 | # Scoring: nmi 0.899 ami 0.899 ari 0.830 f1 0.828 acc 0.892
+INFO: 2022-06-20 17:59:26,284 - root -  - Changed total 0.021.
+INFO: 2022-06-20 17:59:26,879 - root -  - Data shape: (35174, 10)
+INFO: 2022-06-20 17:59:38,044 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([3187, 3072, 3072, 3520, 4017, 3184, 3623, 2768,  308, 4770, 2450,
+       1203]))
+INFO: 2022-06-20 17:59:38,223 - root -  - # EPOCH 6 | # Scoring: nmi 0.889 ami 0.889 ari 0.813 f1 0.820 acc 0.883
+INFO: 2022-06-20 17:59:38,224 - root -  - Changed total 0.011.
+INFO: 2022-06-20 17:59:38,723 - root -  - Data shape: (35174, 10)
+INFO: 2022-06-20 17:59:51,285 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([3181, 3072, 3072, 3522, 4041, 3184, 3605, 2768,  308, 4144, 3076,
+       1201]))
+INFO: 2022-06-20 17:59:51,483 - root -  - # EPOCH 8 | # Scoring: nmi 0.909 ami 0.909 ari 0.850 f1 0.834 acc 0.900
+INFO: 2022-06-20 17:59:51,484 - root -  - Changed total 0.019.
+INFO: 2022-06-20 17:59:52,179 - root -  - Data shape: (35174, 10)
+INFO: 2022-06-20 18:00:03,615 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([3171, 3072, 3071, 3519, 4026, 3184, 3604, 2768,  308, 4132, 3088,
+       1231]))
+INFO: 2022-06-20 18:00:03,801 - root -  - # EPOCH 10 | # Scoring: nmi 0.908 ami 0.908 ari 0.851 f1 0.835 acc 0.901
+INFO: 2022-06-20 18:00:03,802 - root -  - Changed total 0.002.
+INFO: 2022-06-20 18:00:04,017 - root -  - CONVERGED!!!
+INFO: 2022-06-20 18:00:04,087 - root -  - Data shape: (35174, 10)
+INFO: 2022-06-20 18:00:43,000 - root -  - 
+CONVERGED!!! BREAKING EARLY!!!
+INFO: 2022-06-20 18:00:43,113 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([3162, 3072, 3071, 3591, 3985, 3671, 3143, 2768,  307, 4132, 3089,
+       1183]))
+INFO: 2022-06-20 18:00:43,295 - root -  - # EPOCH 11 | # Scoring: nmi 0.911 ami 0.911 ari 0.851 f1 0.833 acc 0.900
+INFO: 2022-06-20 18:00:43,297 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 18:00:43,298 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 18:00:43,442 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 18:00:50,900 - root -  - # FINAL SCORE @ EPOCH 11 | # Scoring: nmi 0.911 ami 0.911 ari 0.851 f1 0.833 acc 0.900
+INFO: 2022-06-20 18:00:51,067 - root -  - SAVE PREDICTION RESULTS.

@@ -1,0 +1,24 @@
+INFO: 2022-06-20 21:32:09,511 - root -  - {'commit': 'implicit_ordering_noPseudo_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 3, 'dataset': 'pamap2', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 10, 'batch_size': 32, 'maxIters': 10, 'beta': 100, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noPseudo', 'n_filters': 8, 'n_latent': 20, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 21:32:09,572 - root -  - pamap2: Data size: (51843, 51) (51843,)
+INFO: 2022-06-20 21:32:15,662 - root -  - Data shape: (51843, 20)
+INFO: 2022-06-20 21:33:46,061 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([4388, 4736, 2088, 2928, 6793, 4627, 4419, 4687, 3642, 5497, 4113,
+       3925]))
+INFO: 2022-06-20 21:33:46,322 - root -  - # EPOCH 1 | # Scoring: nmi 0.780 ami 0.780 ari 0.652 f1 0.619 acc 0.688
+INFO: 2022-06-20 21:33:46,323 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:33:46,329 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:33:46,633 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:33:56,658 - root -  - # FINAL SCORE @ EPOCH 1 | # Scoring: nmi 0.780 ami 0.780 ari 0.652 f1 0.619 acc 0.688
+INFO: 2022-06-20 21:33:56,907 - root -  - SAVE PREDICTION RESULTS.
+INFO: 2022-06-20 21:42:54,919 - root -  - {'commit': 'implicit_ordering_noPseudo_1', 'exp': 1, 'savefig': True, 'saveResults': True, 'gpu_num': 3, 'dataset': 'pamap2', 'window': 2048, 'shift': 2048, 'learning_rate': 0.001, 'optimizer': 'Adam', 'epochs': 10, 'batch_size': 32, 'maxIters': 10, 'beta': 100, 'cluster_reassignment': 100, 'random_state': 52, 'threshold': 0.01, 'pretrain_epoch': 1, 'initializer': 'sequential', 'ablation': 'noPseudo', 'n_filters': 8, 'n_latent': 20, 'kernel_size': 3, 'padding': 'causal', 'n_dilation': 8, 'dropout_rate': 0.25, 'dilation_exp': 2, 'sampling_factor': 16}
+INFO: 2022-06-20 21:42:54,981 - root -  - pamap2: Data size: (51843, 51) (51843,)
+INFO: 2022-06-20 21:43:01,087 - root -  - Data shape: (51843, 20)
+INFO: 2022-06-20 21:44:33,944 - root -  - (array([0.0000, 1.0000, 2.0000, 3.0000, 4.0000, 5.0000, 6.0000, 7.0000,
+       8.0000, 9.0000, 10.0000, 11.0000]), array([4456, 4883, 2591, 7857, 1788, 4108, 4902, 2462, 3499, 4415, 6201,
+       4681]))
+INFO: 2022-06-20 21:44:34,212 - root -  - # EPOCH 1 | # Scoring: nmi 0.747 ami 0.747 ari 0.587 f1 0.593 acc 0.658
+INFO: 2022-06-20 21:44:34,214 - root -  - SAVE PREDICTION.
+INFO: 2022-06-20 21:44:34,228 - root -  - SAVE RESULTS.
+INFO: 2022-06-20 21:44:34,830 - root -  - SAVE PREDICTION PLOT.
+INFO: 2022-06-20 21:44:45,368 - root -  - # FINAL SCORE @ EPOCH 1 | # Scoring: nmi 0.747 ami 0.747 ari 0.587 f1 0.593 acc 0.658
+INFO: 2022-06-20 21:44:45,620 - root -  - SAVE PREDICTION RESULTS.
