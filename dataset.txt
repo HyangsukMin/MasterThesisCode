@@ -1,0 +1,18 @@
+total 172K
+drwxrwxr-x 21 hmin hmin 4.0K  6월 23 17:07 DSA
+drwxrwxr-x 38 hmin hmin 4.0K  6월 23 17:07 EMG
+drwxrwxr-x  2 hmin hmin 4.0K  6월 23 17:07 Gas
+drwxrwxr-x  2 hmin hmin 4.0K  6월 23 17:07 Gesture
+drwxrwxr-x  2 hmin hmin 4.0K  6월 23 17:07 HARSC
+drwxrwxr-x  2 hmin hmin 4.0K  6월 23 17:07 PAMAP2
+drwxrwxr-x  2 hmin hmin 4.0K  6월 23 17:07 WELLLOG
+-rw-rw-r--  1 hmin hmin  87K  6월 23 17:07 Untitled.ipynb
+-rw-rw-r--  1 hmin hmin  26K  6월 23 17:07 example.pkl
+drwxrwxr-x  2 hmin hmin 4.0K  6월 23 17:07 mHealth
+drwxrwxr-x  2 hmin hmin 4.0K  6월 23 17:07 motionsense
+drwxrwxr-x  3 hmin hmin 4.0K  6월 23 17:07 opportunity
+-rw-rw-r--  1 hmin hmin 1.5K  6월 23 17:07 preprocess_Gesture.py
+-rw-rw-r--  1 hmin hmin  813  6월 23 17:07 preprocess_Gas.py
+drwxrwxr-x  4 hmin hmin 4.0K  6월 23 17:07 skoda
+drwxrwxr-x  2 hmin hmin 4.0K  6월 23 17:07 waveglove
+-rw-rw-r--  1 hmin hmin    0  6월 23 18:23 dataset.txtx
