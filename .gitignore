@@ -136,7 +136,8 @@ archive/
 datasets/
 bs_outputs/
 bs_outputs/ticc
-outputs/
+# outputs/
+outputs/archive
 img/
 log/
 baseline/
