@@ -1,5 +1,0 @@
-INFO: 2022-06-20 17:56:39,604 - root -  - # FINAL SCORE @ EPOCH 12 | # Scoring: nmi 0.868 ami 0.868 ari 0.825 f1 0.804 acc 0.865
-INFO: 2022-06-20 17:59:51,536 - root -  - # FINAL SCORE @ EPOCH 11 | # Scoring: nmi 0.918 ami 0.917 ari 0.873 f1 0.828 acc 0.882
-INFO: 2022-06-20 18:04:46,439 - root -  - # FINAL SCORE @ EPOCH 16 | # Scoring: nmi 0.859 ami 0.859 ari 0.840 f1 0.803 acc 0.868
-INFO: 2022-06-20 18:08:14,891 - root -  - # FINAL SCORE @ EPOCH 11 | # Scoring: nmi 0.928 ami 0.928 ari 0.888 f1 0.833 acc 0.892
-INFO: 2022-06-20 18:11:33,644 - root -  - # FINAL SCORE @ EPOCH 11 | # Scoring: nmi 0.893 ami 0.893 ari 0.854 f1 0.823 acc 0.879
